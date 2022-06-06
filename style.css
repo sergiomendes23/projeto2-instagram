@@ -1,0 +1,388 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 935px;
+    display: flex;
+    margin: 0px auto;
+}
+.topo {
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    border: 1px solid #DBDBDB;
+}
+.tudo-topo {
+    width: 935px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.icone {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+.logo {
+    width: 102px;
+    height: 28px;
+}
+.linha1 {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin-right: 10px;
+}
+.insta{
+    display: flex;
+    align-items: center;
+}
+.pesquisar {
+    text-align: center;
+    width: 200px;
+    height: 28px; 
+}
+.icons {
+
+}
+.icon1 {
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+}
+.icon2 {
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+
+}
+.icon3 {
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+}
+.icon4 {
+    width: 22px;
+    height: 22px;
+}
+.story {
+    display: flex;
+    align-items: center;
+    width: 614px;
+    height: 118px;
+    margin-top: 24px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    position: relative;
+    font-family: roboto;
+    overflow: hidden;
+}
+.storys {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.fundo-story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./Imagens/stories_background.jpg");
+    width: 66px;
+    height: 66px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+.storys p {
+    text-align: center;
+    text-overflow: ellipsis;
+    width: 60px;
+    overflow: hidden;
+}
+.seta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 8px;
+    box-shadow: 5px 7px 7px rgba(148, 145, 145, 0.7);
+    border-radius: 50px;
+}
+.feed {
+    width: 614px;
+    height: 749px;
+    margin-top: 24px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    position: relative;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: aqua;
+}
+.item-perfil {
+    display: flex;
+    align-items: center;
+}
+.perfil2 {
+    margin-top: 60px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+.perfil3 {
+    margin-top: 60px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+.foto {
+    width: 32px;
+    height: 32px;
+}
+.nome {
+    margin-left: 15px;
+    font-family: roboto;
+    font-weight: bold;
+}
+.gato {
+    width: 612px;
+    height: 612px;
+}
+.sidebar {
+    width: 294px;
+    height: 500px;
+    margin-top: 24px;
+    margin-left: 24px;
+    position: relative;
+    overflow:unset;
+}
+.icon-feed {
+    width: 22px;
+    height: 22px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.icon-feed1 {
+    width: 22px;
+    height: 22px;
+    margin-left: 445px;
+    margin-top: 10px;
+}
+.icon-respondeai {
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.comentarios {
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.comentarios1 {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.comentarios2 {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.like {
+    margin-top: 8px;
+    margin-left: 5px;
+    font-family: roboto;
+}
+.item {
+    font-weight:bold;
+    font-family: roboto;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.e {
+    font-family: roboto;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.itens-sidebar{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 24px;
+
+}
+.texto-catana {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-family: roboto;
+}
+.img-catana {
+    width: 56px;
+    height: 56px;
+}
+.catanacomics {
+    font-weight: 500;
+    font-size: 14px;
+}
+.Catana {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8E8E8E;
+}
+.sugestoes {
+    display: flex;
+    position: absolute;
+    font-family: roboto;
+}
+.paravoce {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-weight: 500;
+}
+.vertudo {
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 135px;
+    text-align: right;
+}
+.perfil-sugestoes {
+    display: flex;
+    align-items: center;
+    font-family: roboto;
+    margin-top: 15px;
+
+}
+.perfilzinho {
+    width: 32px;
+    height: 32px;
+}
+.nome-perfil {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+.badvibes {
+    font-size: 14px;
+    font-weight:500;
+    margin-bottom: 6px;
+}
+.segue {
+    font-size: 12px;
+    font-weight:400;
+    color: #8E8E8E;
+}
+.seguir {
+    font-size: 12px;
+    font-weight:500;
+    color: #139EF2;
+    margin-left: 100px;
+}
+.seguir1 {
+    font-size: 12px;
+    font-weight:500;
+    color: #139EF2;
+    margin-left: 150px;
+}
+.seguir2 {
+    font-size: 12px;
+    font-weight:500;
+    color: #139EF2;
+    margin-left: 85px;
+}
+.seguir3 {
+    font-size: 12px;
+    font-weight:500;
+    color: #139EF2;
+    margin-left: 100px;
+}
+.seguir4 {
+    font-size: 12px;
+    font-weight:500;
+    color: #139EF2;
+    margin-left: 123px;
+}
+.espacamento {
+    margin-top: 50px;
+}
+.topo-mobile {
+        display: none;
+}
+.rodape-sidebar{ 
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:#8E8E8E;
+}
+@media (max-width: 935px) {
+    .sidebar {
+      display: none;
+    }
+    .container {
+        justify-content: center;
+        width: 100%;
+    }
+    .logo {
+        margin: 0;
+    }
+    .tudo-topo {
+        width: 100%;
+    }
+}
+@media (max-width: 614px) {
+   .topo {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .topo-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .icon2,
+    .icon3,
+    .icon4,
+    .pesquisar,
+    .linha1 {
+        display:none;
+    }
+    .tudo-topo {
+        display: none;
+    }
+    .story,
+    .feed {
+        margin: 0;
+        width: 100vw;
+    }
+    .gato {
+        width: 100%;
+    }
+    .icon1,
+    .icons,
+    .icone,
+    .logo,
+    .story,
+    .feed {
+        margin: 0;
+    }
+    .container {
+        width: 100%;
+    }
+    
+}
